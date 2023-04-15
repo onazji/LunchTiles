@@ -1,0 +1,25 @@
+body{
+    background: grey;
+}
+/* 3x3 box  */
+.grid{
+    background: blanchedalmond;
+    height:150px;
+    width: 150px;
+    border: 3px solid silver;
+    display:  flex;
+    flex-wrap: wrap;
+}
+/* grid emoji style  */
+.grid div{
+    
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.points{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
